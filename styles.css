@@ -1,7 +1,31 @@
 body{
-    background-color: brown;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    background-color: aliceblue;
+}
+
+a{
+    list-style: 0;
+    text-decoration: none;
 }
 
 .accordion-section{
     display: none;
 }
+.accordion{
+    background-color: bisque;
+    margin: 50px;
+    padding: 15px;
+}
+
+.accordion-section{
+    background-color:darkcyan;
+    padding: 2px 5px;
+    color: aliceblue;
+}
+
+h1{
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color:blueviolet;
